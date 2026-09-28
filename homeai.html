@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAS Cafe Recipes</title>
+
+    <!-- Existing stylesheet (kept) -->
+    <link rel="stylesheet" href="project.css">
+
+    <!-- Bootstrap 5 CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+
+    <style>
+        /* Optional small fixes for Bootstrap navbar */
+        .logo img {
+            height: 60px;
+            width: auto;
+        }
+
+        .navbar-nav .nav-link {
+            color: #6f4e37;
+            font-weight: bold;
+            margin-left: 15px;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #e1cec0;
+        }
+
+        .contact-info button {
+            border: none;
+            padding: 10px 20px;
+            background-color: #6f4e37;
+            border-radius: 5px;
+        }
+
+        .contact-info button a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .contact-info button:hover {
+            background-color: #5a3d2b;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Bootstrap Navbar with Hamburger Menu -->
+        <nav class="navbar navbar-expand-lg bg-light px-3">
+
+            <!-- Logo -->
+            <a class="navbar-brand logo" href="home2.html">
+                <img src="logo.jpg" alt="the logo">
+            </a>
+
+            <!-- Hamburger Button -->
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Collapsible Menu -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home2.html">HOME</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Iced.html">ICED</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="hot.html">HOT</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="matcha.html">MATCHA</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="baked.html">BAKED</a>
+                    </li>
+                </ul>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-text">
+
+                <div class="text-content">
+
+                    <h1>
+                        FRESH RECIPES<br>
+                        MADE FOR YOU
+                    </h1>
+
+                    <p>
+                        Welcome to our website for tasty drinks and fresh baked goods!
+                        We offer a variety of sweet treats and refreshing drinks for
+                        everyone to enjoy. Stop by and find your new favorite snack or
+                        drink.
+                    </p>
+
+                    <div class="contact-info">
+                        <button>
+                            <a href="contact.html">Contact Us</a>
+                        </button>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="image-grid">
+
+                <div class="diamond-container">
+                    <a href="matcha.html">
+                        <img src="MandC.jpg" alt="pic for both">
+                    </a>
+                </div>
+
+                <div class="diamond-container">
+                    <a href="baked.html">
+                        <img src="Iced.jpg" alt="pic for coffee">
+                    </a>
+                </div>
+
+                <div class="diamond-container">
+                    <a href="Iced.html">
+                        <img src="Hot.jpg" alt="pic for pastry">
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Bootstrap 5 JS -->
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>

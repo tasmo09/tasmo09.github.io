@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-color:#f5f2ee;
+    font-family:Arial, sans-serif;
+    color:#5f4b3a;
+}
+body {
+  background-image: url("bg.jpg");
+}
+
+
+
+.navbar{
+    background-color:#5e4e40;
+    padding:15px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo img{
+    width:75px;
+    height:75px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.nav-links{
+    display:flex;
+    gap: 70px;
+    list-style:none;
+    align-items: center;
+}
+
+.nav-links a{
+    text-decoration:solid;
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.nav-links a:hover{
+    color:#bc9d79;
+}
+
+
+main{
+    padding:40px
+}
+
+.recipes-page{
+    padding:40px;
+}
+
+.recipes-page h1{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:50px;
+    color:#5e4e40;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.recipe-card{
+    display:flex;
+    gap:30px;
+    margin-bottom:80px;
+    align-items:flex-start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.recipe-card img{
+    width:250px;
+    height:250px;
+    object-fit:cover;
+    border-radius:15px;
+    border:4px solid #5e4e40;
+}
+
+.recipe-info{
+    max-width:700px;
+}
+
+.recipe-info h2{
+    font-size:30px;
+    color:#5e4e40;
+    margin-bottom:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.recipe-info h3{
+    margin-top:15px;
+    margin-bottom:10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.recipe-info ul{
+    margin-left:20px;
+    line-height:1.8;
+}
+
+.recipe-info p{
+    line-height:1.8;
+    margin-top:10px;
+    font-size:17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

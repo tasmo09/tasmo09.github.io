@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    background-color:#f5f2ee;
+    font-family:Arial, sans-serif;
+    color:#5f4b3a;
+}
+body {
+  background-image: url("bg.jpg");
+}
+
+
+
+.navbar{
+    background-color:#5e4e40;
+    padding:15px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo img{
+    width:75px;
+    height:75px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+.nav-links{
+    display:flex;
+    gap: 70px;
+    list-style:none;
+    align-items: center;
+}
+
+.nav-links a{
+    text-decoration:solid;
+    color:white;
+    font-size:25px;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.nav-links a:hover{
+    color:#bc9d79;
+}
+
+
+main{
+    padding:40px;
+}
+
+.hero{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom:20px;
+    color:#5e4e40;
+    font-weight: bolder;
+}
+
+.hero-text p{
+    font-size:20px;
+    line-height:1.7;
+    margin-bottom:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.image-grid{
+    display:grid;
+    grid-template-rows:repeat(2, 1fr);
+    gap:20px;
+}
+
+.image-grid img{
+    width:490px;
+    height:140px;
+    object-fit:cover;
+    border-radius:15px;
+
+}
+.contact-info {
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom:20px;
+    color:#5e4e40;
+    font-weight: bolder;
+    display:flex;
+    gap: 70px;
+    list-style:none;
+    align-items: center;
+
+}
+.contact-info a{
+    text-decoration:solid;
+    color:#5e4e40;
+    font-size: 20px;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.contact-info button{
+    margin-top:10px;
+    padding:5px;
+
+    background:none;
+    border-color:#5e4e40;
+
+    border:solid;
+    border-radius:30px;
+
+    font-size:20px;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-info button:hover{
+    background-color:#bc9d79;
+}
+

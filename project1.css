@@ -1,0 +1,172 @@
+@media screen and (max-width:992px){
+
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+
+    .nav-links{
+        gap:30px;
+        flex-wrap:wrap;
+        justify-content:center;
+    }
+
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-text{
+        width:100%;
+    }
+
+    .hero-text h1{
+        font-size:40px;
+    }
+
+    .hero-text p{
+        font-size:18px;
+    }
+
+    .image-grid img{
+        width:100%;
+        height:auto;
+    }
+
+    .contact-info{
+        flex-direction:column;
+        gap:20px;
+        text-align:center;
+    }
+
+    .recipe-card{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+
+    .recipe-info{
+        max-width:100%;
+    }
+
+    .recipe-info ul{
+        text-align:left;
+    }
+
+    .contact-form{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    main{
+        padding:20px;
+    }
+
+    .navbar{
+        padding:15px;
+    }
+
+    .logo img{
+        width:60px;
+        height:60px;
+    }
+
+    .nav-links{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    .nav-links a{
+        font-size:18px;
+    }
+
+    .hero{
+        gap:20px;
+    }
+
+    .hero-text h1{
+        font-size:30px;
+    }
+
+    .hero-text p{
+        font-size:16px;
+    }
+
+    .image-grid{
+        gap:10px;
+    }
+
+    .image-grid img{
+        width:100%;
+        height:auto;
+    }
+
+    .contact-info{
+        font-size:16px;
+        gap:15px;
+    }
+
+    .contact-info a{
+        font-size:16px;
+    }
+
+    .contact-info button{
+        font-size:16px;
+        padding:8px 12px;
+    }
+
+    .recipes-page{
+        padding:20px;
+    }
+
+    .recipes-page h1{
+        font-size:30px;
+    }
+
+    .recipe-card img{
+        width:100%;
+        max-width:300px;
+        height:auto;
+    }
+
+    .recipe-info h2{
+        font-size:24px;
+    }
+
+    .recipe-info p{
+        font-size:15px;
+    }
+
+    .contact-page{
+        padding:20px;
+    }
+
+    .contact-page h1{
+        font-size:35px;
+    }
+
+    .contact-text{
+        font-size:16px;
+    }
+
+    .contact-form{
+        padding:20px;
+    }
+
+    .contact-form label{
+        font-size:16px;
+    }
+
+    .contact-form input,
+    .contact-form textarea{
+        font-size:14px;
+    }
+
+    .contact-form button{
+        font-size:16px;
+        padding:12px;
+    }
+}
